@@ -84,7 +84,6 @@ export default {
 
 <style scoped>
 
-
     .container_first{
         height: 90px;
         display: flex;
@@ -102,15 +101,20 @@ export default {
         justify-content: center;
     }
 
-    li a  {
+     li a  {
         text-decoration: none;
         color: black;
         padding: 10px;
         font-size: 12px;
         font-weight: bold;
+    } 
+
+    li a.active {
+        color: #0282f9;
+        border-bottom: 3px solid;
     }
 
-    .active {
+    li a:hover {
         color: #0282f9;
         border-bottom: 3px solid;
     }
