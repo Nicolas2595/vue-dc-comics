@@ -14,13 +14,19 @@
         </div>
         
         <div class="container_second">
-            <h3>Content Goes Here</h3>
+            <!-- <h3>Content Goes Here</h3> -->
+            <div class="jumbotron">
+               <button>
+                   <h5>CURRENT SERIES</h5>
+               </button>
+            </div>
         </div>
     </div>
 
 </template>
 
 <script>
+
 export default {
     name: "Header",
     data: function() {
@@ -77,7 +83,8 @@ export default {
                     active : false
                 }
             ]
-        }
+        };
+        
     }
 }
 </script>
@@ -121,7 +128,28 @@ export default {
 
     .container_second {
         background-color: #1c1c1c;
-        height: 100px;
+    }
+
+    .jumbotron {
+        height: 250px;
+        background: url('../assets/img/jumbotron.jpg');
+        background-size: cover;
+        position: relative;
+    }
+
+    button {
+        position: absolute;
+        bottom: -20px;
+        left: 50px;
+        padding: 8px;
+        background-color: #0282f9;
+        border-color: #0282f9;
+        cursor: pointer;
+    }
+
+    h5 {
+        color: white;
+        font-size: 15px;
     }
 
     h3 {

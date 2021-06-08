@@ -4,6 +4,8 @@
   
     <Header />
 
+    <Cards />
+
     <Main />
 
     <Footer />
@@ -15,6 +17,7 @@
 <script>
 
 import Header from './components/Header';
+import Cards from './components/Cards';
 import Main from './components/Main';
 import Footer from './components/Footer';
 
@@ -22,6 +25,7 @@ export default {
     name: 'App',
     components: {
       Header,
+      Cards,
       Main,
       Footer
     }

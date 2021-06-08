@@ -51,4 +51,5 @@ export default {
         margin: 20px;
         cursor: pointer;
     }
+    
 </style>
